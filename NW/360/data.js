@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-vogelperspektive",
-      "name": "Vogelperspektive",
+      "id": "0-overview",
+      "name": "Overview",
       "levels": [
         {
           "tileSize": 256,
@@ -20,35 +20,64 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -0.03757167009223039,
-        "pitch": 0.1659358893582894,
+        "yaw": 1.1618990687201673,
+        "pitch": 1.4657508449000787,
         "fov": 1.4510934010586207
       },
       "linkHotspots": [
         {
-          "yaw": -0.07220087844096668,
-          "pitch": 0.43631629295564167,
+          "yaw": 0.07127364454412266,
+          "pitch": 0.7905908030120266,
           "rotation": 5.497787143782138,
-          "target": "1-erdgeschoss"
+          "target": "1-auenansicht-carina"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-auenansicht-carina",
+      "name": "Außenansicht Carina",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": -0.4698857608081184,
-          "pitch": 0.24054463652979585,
-          "rotation": 9.42477796076938,
-          "target": "5-dachgarten"
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -0.1331478901591634,
+        "pitch": 0.375978464281399,
+        "fov": 1.2833487960511751
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.07270175017809244,
+          "pitch": 0.4496795264313267,
+          "rotation": 11.780972450961727,
+          "target": "2-erdgeschoss"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.028681223292071678,
-          "pitch": 0.15704546491814142,
-          "title": "DENKEN UND ARBEITEN Innovationszentrum Berlin TXL",
-          "text": "<div>Ein Tageslicht-optimiertes Gebäude, dessen Geometrie nach den Regeln des Lichteinfalls ausgebildet wurden. Die sechs repräsentativen Lichthöfe bilden zusammen mit der Fassade nicht nur die Geometrie sondern auch die Grundstruktur der inneren Organisation.</div>"
+          "yaw": 0.1618938516186894,
+          "pitch": 0.2679573977923919,
+          "title": "DENKEN UND ARBEITEN<div>Innovationszentrum Berlin</div>",
+          "text": "<div>Ein Tageslicht-optimiertes Gebäude, dessen Geometrie nach den Regeln des Lichteinfalls ausgebildet wurden. Die sechs repräsentativen Lichthöfe bilden zusammen mit der Fassade nicht nur die Geometrie sondern auch die Grundstruktur der inneren Organisation.</div><div><br></div><video controls><source src=video/carina_stoveken_nwe_1min_video.mp4 type= video/mp4>Your
+browser does not support the video element.</video>"
         }
       ]
     },
     {
-      "id": "1-erdgeschoss",
+      "id": "2-erdgeschoss",
       "name": "Erdgeschoss",
       "levels": [
         {
@@ -67,29 +96,29 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 0.5019432842685205,
-        "pitch": 0.08727880419590406,
-        "fov": 1.4510934010586207
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.33851422377165896,
-          "pitch": -0.09288511761959839,
+          "yaw": -0.3992675229968654,
+          "pitch": -0.07944232910060123,
           "rotation": 0.7853981633974483,
-          "target": "2-kommunikationsbereich"
+          "target": "3-kommunikationsbereich"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.048229746993746,
-          "pitch": 0.06433610891406794,
-          "title": "Erdgeschossebene",
-          "text": "Im Erdgeschoss gibt es Sondernutzungen wie Gastronomie, Kita, Fitness, Vortragssäle, Bibliothek und Eventflächen. Diese können von der angrenzenden Hochschule mitgenutzt werden."
+          "yaw": 0.9540561807843737,
+          "pitch": 0.14442112358750236,
+          "title": "Ergeschossebene&nbsp;<div>-anklicken-</div>",
+          "text": "Im Erdgeschoss gibt es Sondernutzungen wie Gastronomie, Kita, Fitness, Vortragssäle, Bibliothek und Eventflächen. Diese können von der angrenzenden Hochschule mitgenutzt werden.&nbsp;"
         }
       ]
     },
     {
-      "id": "2-kommunikationsbereich",
+      "id": "3-kommunikationsbereich",
       "name": "Kommunikationsbereich",
       "levels": [
         {
@@ -108,35 +137,35 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 2.473146179546241,
-        "pitch": -0.048315290810696965,
-        "fov": 1.4510934010586207
+        "yaw": -0.6376468878414308,
+        "pitch": 0.03701931824684834,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.9132974227256803,
-          "pitch": 0.3176239982859279,
-          "rotation": 3.141592653589793,
-          "target": "1-erdgeschoss"
+          "yaw": -1.610912832962109,
+          "pitch": 0.034007937008215805,
+          "rotation": 0.7853981633974483,
+          "target": "4-brobereich"
         },
         {
-          "yaw": 2.8659002474411306,
-          "pitch": 0.01885415515704736,
-          "rotation": 10.995574287564278,
-          "target": "3-brobereich"
+          "yaw": 2.905021363883879,
+          "pitch": -0.008806483840242407,
+          "rotation": 4.71238898038469,
+          "target": "4-brobereich"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.3107387443925154,
-          "pitch": 0.08692004728096059,
-          "title": "informelle Kommunikation",
-          "text": "<div>Die Bereiche um die Lichthöfe beinhalten zum Beispiel Sitzgelegenheiten, Teeküche und die Erschließung, und fördern somit stark die informelle Kommunikation und den Austausch zwischen den MitarbeiterInnen und Firmen.&nbsp;</div>"
+          "yaw": -1.179017200131387,
+          "pitch": 0.19140922380745806,
+          "title": "Informelle Kommunikation<div>-anklicken-</div>",
+          "text": "Die Bereiche um die Lichthöfe beinhalten zum Beispiel Sitzgelegenheiten, Teeküche und die Erschließung, und fördern somit stark die informelle Kommunikation und den Austausch zwischen den MitarbeiterInnen und Firmen.&nbsp;"
         }
       ]
     },
     {
-      "id": "3-brobereich",
+      "id": "4-brobereich",
       "name": "Bürobereich",
       "levels": [
         {
@@ -155,41 +184,35 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 2.799074214176164,
-        "pitch": 0.04191979616386732,
-        "fov": 1.4510934010586207
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 1.7695419374054024,
-          "pitch": -0.10848925941597898,
-          "rotation": 0,
-          "target": "0-vogelperspektive"
-        },
-        {
-          "yaw": -1.6412060376218367,
-          "pitch": 0.06875415571562371,
+          "yaw": -1.253796838820005,
+          "pitch": 0.048464927741875385,
           "rotation": 0.7853981633974483,
-          "target": "4-lichthof"
+          "target": "5-lichthof"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -2.9151567038788997,
-          "pitch": -0.06239496529714472,
-          "title": "Bürolayer",
-          "text": "<div>Der Fassaden-Layer wird als standartisierte Bürofläche mit Besprechungsräumen, hellen Arbeitsplätzen und Einzelbüros genutzt.&nbsp;<br></div>"
+          "yaw": 0.09451154048527854,
+          "pitch": 0.32088852555362735,
+          "title": "Standardisierter Bürobereich<div>-anklicken-</div>",
+          "text": "Der Fassaden-Layer wird als standardisierte Bürofläche mit Besprechungsräumen, hellen Arbeitsplätzen und Einzelbüros genutzt."
         },
         {
-          "yaw": -1.205621903180445,
-          "pitch": 0.0427192681828803,
-          "title": "Forschungsbereich",
-          "text": "<div>Zwischen diesen Bereichen in Fassaden- bzw. Lichthofnähe ergibt sich ein Zwischenbereich, welcher um einen Meter herabgesetzt wurde, um hier mehr Tageslicht zu erhalten. In diesen Splitlevels befindet sich der stützenfreie Forschungs- und Produktionsraum der Firmen.</div>"
+          "yaw": -1.7733514352571742,
+          "pitch": 0.17774450399511643,
+          "title": "Produktionsbereich<div>-anklicken-</div>",
+          "text": "<div>Zwischen dem Fassadenlayer und den Lichthöfen ergibt sich ein Zwischenbereich, welcher um einen Meter herabgesetzt wurde, um hier mehr Tageslicht zu erhalten. In diesen Splitlevels befindet sich der stützenfreie Forschungs- und Produktionsraum der Firmen.<br></div>"
         }
       ]
     },
     {
-      "id": "4-lichthof",
+      "id": "5-lichthof",
       "name": "Lichthof",
       "levels": [
         {
@@ -208,41 +231,41 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 1.1627638898876267,
-        "pitch": 0.01710042728520378,
+        "yaw": 1.0975415951108651,
+        "pitch": 0.07290182158428493,
         "fov": 1.4510934010586207
       },
       "linkHotspots": [
         {
-          "yaw": -1.0622797619240263,
-          "pitch": 0.043972527304809716,
-          "rotation": 7.0685834705770345,
-          "target": "3-brobereich"
+          "yaw": 0.6767005449936399,
+          "pitch": -0.44594722591001457,
+          "rotation": 0,
+          "target": "6-dachgarten"
         },
         {
-          "yaw": 1.3560662332293596,
-          "pitch": -0.3674552228825174,
+          "yaw": -2.1946010298457423,
+          "pitch": -0.06275927585958385,
           "rotation": 0,
-          "target": "5-dachgarten"
+          "target": "6-dachgarten"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.44042664284733135,
-          "pitch": 0.030884845098247737,
-          "title": "Forschung/Produktion",
-          "text": "Zwischen diesen Bereichen in Fassaden- bzw. Lichthofnähe ergibt sich ein Zwischenbereich, welcher um einen Meter herabgesetzt wurde, um hier mehr Tageslicht zu erhalten. In diesen Splitlevels befindet sich der stützenfreie Forschungs- und Produktionsraum der Firmen."
+          "yaw": 1.024750259799788,
+          "pitch": 0.39522804303297754,
+          "title": "Seminarräume<div>-anklicken-</div>",
+          "text": "Text"
         },
         {
-          "yaw": 1.3274000866164783,
-          "pitch": 0.44403748572636204,
-          "title": "Seminarraum",
-          "text": "Text"
+          "yaw": 2.7592534670015976,
+          "pitch": 0.039676061956980035,
+          "title": "Produktionsbereich",
+          "text": "<div>Zwischen dem Fassadenlayer und den Lichthöfen ergibt sich ein Zwischenbereich, welcher um einen Meter herabgesetzt wurde, um hier mehr Tageslicht zu erhalten. In diesen Splitlevels befindet sich der stützenfreie Forschungs- und Produktionsraum der Firmen.</div><div><br></div>"
         }
       ]
     },
     {
-      "id": "5-dachgarten",
+      "id": "6-dachgarten",
       "name": "Dachgarten",
       "levels": [
         {
@@ -261,39 +284,33 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -1.0039786698089017,
-        "pitch": 0.10053821246042816,
+        "yaw": 0.15005816558588236,
+        "pitch": 0.11326257033055676,
         "fov": 1.4510934010586207
       },
       "linkHotspots": [
         {
-          "yaw": -1.1228421628209944,
-          "pitch": -0.06110826819541515,
-          "rotation": 5.497787143782138,
-          "target": "0-vogelperspektive"
-        },
-        {
-          "yaw": 1.8428163333457963,
-          "pitch": 0.22203523353523558,
-          "rotation": 3.9269908169872414,
-          "target": "4-lichthof"
+          "yaw": -1.306814978077865,
+          "pitch": -0.002721992722150901,
+          "rotation": 0,
+          "target": "1-auenansicht-carina"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.127352626259448,
-          "pitch": 0.3222301286877709,
-          "title": "Dachgarten",
-          "text": "&nbsp;Der großzügige Dachgarten ermöglicht ein Arbeiten im Freien und stellt außerdem Sportangebote und Joggingstrecken bereit. Im Sommer werden die Oberlichter (ETFE-Membran) der Lichthöfe nach oben gefahren, sodass das gesamte Gebäude zum Außenraum und natürlich belüftet werden kann."
+          "yaw": 0.05299555386652699,
+          "pitch": 0.21935367370005032,
+          "title": "Dachgarten<div>-anklicken-</div>",
+          "text": "Der großzügige Dachgarten ermöglicht ein Arbeiten im Freien und stellt außerdem Sportangebote und Joggingstrecken bereit. Im Sommer werden die Oberlichter (ETFE-Membran) der Lichthöfe nach oben gefahren, sodass das gesamte Gebäude zum Außenraum und natürlich belüftet werden kann."
         }
       ]
     }
   ],
-  "name": "Innovationszentrum Urban Tech Republic Berlin",
+  "name": "Innovationszentrum Berlin TXL",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": true,
+    "fullscreenButton": false,
     "viewControlButtons": false
   }
 };
