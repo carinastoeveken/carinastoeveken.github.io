@@ -37,8 +37,7 @@ var APP_DATA = {
           "yaw": 0.3262470190755735,
           "pitch": 0.8084061307513792,
           "title": "sneak peek<div>-click-</div>",
-          "text": "“<video controls><source src= video/carina_stoveken_nwe_1min_video.mp4 type= video/mp4>Your
-browser does not support the video element.</video>"
+          "text": "Text"
         }
       ]
     },
@@ -85,7 +84,7 @@ browser does not support the video element.</video>"
           "yaw": 0.2633219104328468,
           "pitch": 0.22261770154737448,
           "title": "<div>Explosion</div><div>-click-</div>",
-          "text": "<img src=images/explosionsdiagramm.jpg>"
+          "text": "text"
         }
       ]
     },
@@ -132,7 +131,7 @@ browser does not support the video element.</video>"
           "yaw": 1.1235738703061866,
           "pitch": 0.13909026050786544,
           "title": "Ebenenübersicht<div>-click-</div>",
-          "text": "<img src=imgages/isometrien.jpg>"
+          "text": "Text"
         }
       ]
     },
