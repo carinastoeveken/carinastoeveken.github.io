@@ -32,7 +32,15 @@ var APP_DATA = {
           "target": "1-auenansicht-carina"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.3262470190755735,
+          "pitch": 0.8084061307513792,
+          "title": "sneak peek<div>-click-</div>",
+          "text": "“<video controls><source src= video/carina_stoveken_nwe_1min_video.mp4 type= video/mp4>Your
+browser does not support the video element.</video>"
+        }
+      ]
     },
     {
       "id": "1-auenansicht-carina",
@@ -60,19 +68,24 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.07270175017809244,
-          "pitch": 0.4496795264313267,
+          "yaw": -0.1953523973206952,
+          "pitch": 0.5011414370904852,
           "rotation": 11.780972450961727,
           "target": "2-erdgeschoss"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.1618938516186894,
-          "pitch": 0.2679573977923919,
-          "title": "DENKEN UND ARBEITEN<div>Innovationszentrum Berlin</div>",
-          "text": "<div>Ein Tageslicht-optimiertes Gebäude, dessen Geometrie nach den Regeln des Lichteinfalls ausgebildet wurden. Die sechs repräsentativen Lichthöfe bilden zusammen mit der Fassade nicht nur die Geometrie sondern auch die Grundstruktur der inneren Organisation.</div><div><br></div><video controls><source src=video/carina_stoveken_nwe_1min_video.mp4 type= video/mp4>Your
-browser does not support the video element.</video>"
+          "yaw": 0.005913959946242997,
+          "pitch": 0.45209462278727486,
+          "title": "DENKEN UND ARBEITEN<div>Innovationszentrum Berlin</div><div><div>_Ein Tageslicht-optimiertes Gebäude, dessen Geometrie nach den Regeln des Lichteinfalls ausgebildet wurden. Die sechs repräsentativen Lichthöfe bilden zusammen mit der Fassade nicht nur die Geometrie sondern auch die Grundstruktur der inneren Organisation.</div></div>",
+          "text": "<br>"
+        },
+        {
+          "yaw": 0.2633219104328468,
+          "pitch": 0.22261770154737448,
+          "title": "<div>Explosion</div><div>-click-</div>",
+          "text": "<img src=images/explosionsdiagramm.jpg>"
         }
       ]
     },
@@ -110,10 +123,16 @@ browser does not support the video element.</video>"
       ],
       "infoHotspots": [
         {
-          "yaw": 0.9540561807843737,
-          "pitch": 0.14442112358750236,
-          "title": "Ergeschossebene&nbsp;<div>-anklicken-</div>",
+          "yaw": 0.9904432276129516,
+          "pitch": 0.3402467420632238,
+          "title": "Ergeschossebene&nbsp;<div>-click-</div>",
           "text": "Im Erdgeschoss gibt es Sondernutzungen wie Gastronomie, Kita, Fitness, Vortragssäle, Bibliothek und Eventflächen. Diese können von der angrenzenden Hochschule mitgenutzt werden.&nbsp;"
+        },
+        {
+          "yaw": 1.1235738703061866,
+          "pitch": 0.13909026050786544,
+          "title": "Ebenenübersicht<div>-click-</div>",
+          "text": "<img src=imgages/isometrien.jpg>"
         }
       ]
     },
@@ -159,7 +178,7 @@ browser does not support the video element.</video>"
         {
           "yaw": -1.179017200131387,
           "pitch": 0.19140922380745806,
-          "title": "Informelle Kommunikation<div>-anklicken-</div>",
+          "title": "Informelle Kommunikation<div>-click-</div>",
           "text": "Die Bereiche um die Lichthöfe beinhalten zum Beispiel Sitzgelegenheiten, Teeküche und die Erschließung, und fördern somit stark die informelle Kommunikation und den Austausch zwischen den MitarbeiterInnen und Firmen.&nbsp;"
         }
       ]
@@ -200,13 +219,13 @@ browser does not support the video element.</video>"
         {
           "yaw": 0.09451154048527854,
           "pitch": 0.32088852555362735,
-          "title": "Standardisierter Bürobereich<div>-anklicken-</div>",
+          "title": "Standardisierter Bürobereich<div>-click-</div>",
           "text": "Der Fassaden-Layer wird als standardisierte Bürofläche mit Besprechungsräumen, hellen Arbeitsplätzen und Einzelbüros genutzt."
         },
         {
           "yaw": -1.7733514352571742,
           "pitch": 0.17774450399511643,
-          "title": "Produktionsbereich<div>-anklicken-</div>",
+          "title": "Produktionsbereich<div>-click-<br></div>",
           "text": "<div>Zwischen dem Fassadenlayer und den Lichthöfen ergibt sich ein Zwischenbereich, welcher um einen Meter herabgesetzt wurde, um hier mehr Tageslicht zu erhalten. In diesen Splitlevels befindet sich der stützenfreie Forschungs- und Produktionsraum der Firmen.<br></div>"
         }
       ]
@@ -253,13 +272,13 @@ browser does not support the video element.</video>"
         {
           "yaw": 1.024750259799788,
           "pitch": 0.39522804303297754,
-          "title": "Seminarräume<div>-anklicken-</div>",
-          "text": "Text"
+          "title": "Seminarräume",
+          "text": "&nbsp;"
         },
         {
-          "yaw": 2.7592534670015976,
-          "pitch": 0.039676061956980035,
-          "title": "Produktionsbereich",
+          "yaw": 2.772479676548099,
+          "pitch": 0.06101899443374492,
+          "title": "Produktionsbereich<div>-click-<br></div>",
           "text": "<div>Zwischen dem Fassadenlayer und den Lichthöfen ergibt sich ein Zwischenbereich, welcher um einen Meter herabgesetzt wurde, um hier mehr Tageslicht zu erhalten. In diesen Splitlevels befindet sich der stützenfreie Forschungs- und Produktionsraum der Firmen.</div><div><br></div>"
         }
       ]
@@ -300,7 +319,7 @@ browser does not support the video element.</video>"
         {
           "yaw": 0.05299555386652699,
           "pitch": 0.21935367370005032,
-          "title": "Dachgarten<div>-anklicken-</div>",
+          "title": "Dachgarten<div>-click-<br></div>",
           "text": "Der großzügige Dachgarten ermöglicht ein Arbeiten im Freien und stellt außerdem Sportangebote und Joggingstrecken bereit. Im Sommer werden die Oberlichter (ETFE-Membran) der Lichthöfe nach oben gefahren, sodass das gesamte Gebäude zum Außenraum und natürlich belüftet werden kann."
         }
       ]
