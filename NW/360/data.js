@@ -77,8 +77,8 @@ var APP_DATA = {
         {
           "yaw": 0.005913959946242997,
           "pitch": 0.45209462278727486,
-          "title": "DENKEN UND ARBEITEN<div>Innovationszentrum Berlin</div><div><div>_Ein Tageslicht-optimiertes Gebäude, dessen Geometrie nach den Regeln des Lichteinfalls ausgebildet wurden. Die sechs repräsentativen Lichthöfe bilden zusammen mit der Fassade nicht nur die Geometrie sondern auch die Grundstruktur der inneren Organisation.</div></div>",
-          "text": "<br>"
+          "title": "DENKEN UND ARBEITEN<div>Innovationszentrum Berlin&nbsp;<div>-click-</div>",
+          "text": "Ein Tageslicht-optimiertes Gebäude, dessen Geometrie nach den Regeln des Lichteinfalls ausgebildet wurden. Die sechs repräsentativen Lichthöfe bilden zusammen mit der Fassade nicht nur die Geometrie sondern auch die Grundstruktur der inneren Organisation.&nbsp;"
         },
         {
           "yaw": 0.2633219104328468,
@@ -124,13 +124,13 @@ var APP_DATA = {
         {
           "yaw": 0.9904432276129516,
           "pitch": 0.3402467420632238,
-          "title": "Ergeschossebene&nbsp;<div>-click-</div>",
+          "title": "Ergeschossebene<div>-click-</div>",
           "text": "Im Erdgeschoss gibt es Sondernutzungen wie Gastronomie, Kita, Fitness, Vortragssäle, Bibliothek und Eventflächen. Diese können von der angrenzenden Hochschule mitgenutzt werden.&nbsp;"
         },
         {
           "yaw": 1.1235738703061866,
           "pitch": 0.13909026050786544,
-          "title": "Ebenenübersicht<div>-click-</div>",
+          "title": "Ebenenübersicht</div><div>-click-</div>",
           "text": "<img src= images/isometrien.jpg>"
         }
       ]
