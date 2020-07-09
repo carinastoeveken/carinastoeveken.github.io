@@ -225,7 +225,7 @@ var APP_DATA = {
           "yaw": -1.7733514352571742,
           "pitch": 0.17774450399511643,
           "title": "Produktionsbereich<div>-click-<br></div>",
-          "text": "<div>Zwischen dem Fassadenlayer und den Lichthöfen ergibt sich ein Zwischenbereich, welcher um einen Meter herabgesetzt wurde, um hier mehr Tageslicht zu erhalten. In diesen Splitlevels befindet sich der stützenfreie Forschungs- und Produktionsraum der Firmen.<br></div>"
+          "text": "<div>Zwischen dem Fassadenlayer und den Lichthöfen ergibt sich ein Zwischenbereich, welcher um einen Meter herabgesetzt wurde, um hier mehr Tageslicht zu erhalten. In diesen Splitlevels befindet sich der stützenfreie Forschungs- und Produktionsraum der Firmen.<br></div><img src= images/200216_forschungsbereich.jpg>"
         }
       ]
     },
@@ -319,7 +319,7 @@ var APP_DATA = {
           "yaw": 0.05299555386652699,
           "pitch": 0.21935367370005032,
           "title": "Dachgarten<div>-click-<br></div>",
-          "text": "Der großzügige Dachgarten ermöglicht ein Arbeiten im Freien und stellt außerdem Sportangebote und Joggingstrecken bereit. Im Sommer werden die Oberlichter (ETFE-Membran) der Lichthöfe nach oben gefahren, sodass das gesamte Gebäude zum Außenraum und natürlich belüftet werden kann."
+          "text": "Der großzügige Dachgarten ermöglicht ein Arbeiten im Freien und stellt außerdem Sportangebote und Joggingstrecken bereit. Im Sommer werden die Oberlichter (ETFE-Membran) der Lichthöfe nach oben gefahren, sodass das gesamte Gebäude zum Außenraum und natürlich belüftet werden kann.</div><img src= images/200215_02_LH aussen Dach.jpg>"
         }
       ]
     }
