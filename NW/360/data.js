@@ -319,7 +319,7 @@ var APP_DATA = {
           "yaw": 0.05299555386652699,
           "pitch": 0.21935367370005032,
           "title": "Dachgarten<div>-click-<br></div>",
-          "text": "Der großzügige Dachgarten ermöglicht ein Arbeiten im Freien und stellt außerdem Sportangebote und Joggingstrecken bereit. Im Sommer werden die Oberlichter (ETFE-Membran) der Lichthöfe nach oben gefahren, sodass das gesamte Gebäude zum Außenraum und natürlich belüftet werden kann.<br></div><img src= images/200215_02_LH aussen Dach.jpg>"
+          "text": "Der großzügige Dachgarten ermöglicht ein Arbeiten im Freien und stellt außerdem Sportangebote und Joggingstrecken bereit. Im Sommer werden die Oberlichter (ETFE-Membran) der Lichthöfe nach oben gefahren, sodass das gesamte Gebäude zum Außenraum und natürlich belüftet werden kann."
         }
       ]
     }
