@@ -596,11 +596,11 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   position: absolute;
   width: 800px;
   height: auto;
-  max-height: 1000px;
+  max-height: 800px;
   top: 40px;
   left: 0;
   padding: 10px;
-  background-color: rgb(200,200,200);
+  background-color:
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   overflow-y: auto;
